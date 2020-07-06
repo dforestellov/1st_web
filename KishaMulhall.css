@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(270deg, #ffcbf2, #f3c4fb, #ecbcfd, #e5b3fe, #e2afff, #deaaff, #d8bbff, #d0d1ff, #c8e7ff, #c0fdff);
+    background-size: 2000% 2000%;
+    -webkit-animation: 4s ease infinite;
+    -moz-animation: 4s ease infinite;
+    animation: 4s ease infinite;
+}
+.barra{
+    height: 200px;
+
+
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.cuadro{
+    height: 50px;
+    width: 50px;
+}
+.links{
+    height: 50px;
+    width: 50px;
+}
+.ig{
+    height: 50px;
+    width: 50px;
+}
+.fb{
+    height: 50px;
+    width: 50px;
+}
+.pinterest{
+    height: 50px;
+    width: 50px;
+}
+.gmail{
+    height: 50px;
+    width: 50px;
+}
