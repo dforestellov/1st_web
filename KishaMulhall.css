@@ -1,26 +1,45 @@
 body{
     background: linear-gradient(270deg, #ffcbf2, #f3c4fb, #ecbcfd, #e5b3fe, #e2afff, #deaaff, #d8bbff, #d0d1ff, #c8e7ff, #c0fdff);
     background-size: 2000% 2000%;
-    -webkit-animation: 4s ease infinite;
-    -moz-animation: 4s ease infinite;
-    animation: 4s ease infinite;
+
+    -webkit-animation: KishaMulhallBackground 9s ease infinite;
+    animation: KishaMulhallBackground 9s ease infinite;
+}
+
+@-webkit-keyframes KishaMulhallBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes KishaMulhallBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 .barra{
     height: 200px;
-
-
+    background-color: #deaaff;
+    display: inline;
+    
+    
+    
 }
 .logo{
     height: 50px;
     width: 50px;
+    display: flex;
+    
 }
 .cuadro{
     height: 50px;
     width: 50px;
 }
 .links{
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start
+    
 }
 .ig{
     height: 50px;
