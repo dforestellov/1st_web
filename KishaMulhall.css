@@ -17,28 +17,25 @@ body{
     100%{background-position:0% 50%}
 }
 .barra{
-    height: 200px;
-    background-color: #deaaff;
-    display: inline;
-    
-    
-    
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+      
 }
 .logo{
     height: 50px;
     width: 50px;
-    display: flex;
-    
+    list-style: none;
 }
 .cuadro{
     height: 50px;
     width: 50px;
 }
 .links{
-    height: 200px;
+    width: 400px;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start
+    justify-content: space-evenly;
     
 }
 .ig{
