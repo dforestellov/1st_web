@@ -56,3 +56,7 @@ body{
     height: 30px;
     width: 30px;
 }
+.titulo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+}
