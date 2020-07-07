@@ -2,8 +2,8 @@ body{
     background: linear-gradient(270deg, #ffcbf2, #f3c4fb, #ecbcfd, #e5b3fe, #e2afff, #deaaff, #d8bbff, #d0d1ff, #c8e7ff, #c0fdff);
     background-size: 2000% 2000%;
 
-    -webkit-animation: KishaMulhallBackground 9s ease infinite;
-    animation: KishaMulhallBackground 9s ease infinite;
+    -webkit-animation: KishaMulhallBackground 30s ease infinite;
+    animation: KishaMulhallBackground 30s ease infinite;
 }
 
 @-webkit-keyframes KishaMulhallBackground {
@@ -18,19 +18,21 @@ body{
 }
 .barra{
     height: 100px;
-    background-color: #ffffff;
+    background-color: #d8bbff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
       
 }
 .logo{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     list-style: none;
 }
 .cuadro{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 .links{
     width: 400px;
@@ -39,18 +41,18 @@ body{
     
 }
 .ig{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 .fb{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 .pinterest{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 .gmail{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
