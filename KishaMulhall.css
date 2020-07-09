@@ -96,3 +96,18 @@ section{
 h2{
     margin: 0em;
 }
+p:hover{
+    text-decoration-line: underline;
+}
+h2:hover{
+    text-decoration-line: underline;
+}
+.tarjeta1:hover{
+    border: 1px solid black;
+}
+.tarjeta2:hover{
+    border: 1px solid black;
+}
+.tarjeta3:hover{
+    border: 1px solid black;
+}
