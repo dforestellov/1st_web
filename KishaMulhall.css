@@ -6,7 +6,6 @@ body{
     -webkit-animation: KishaMulhallBackground 30s ease infinite;
     animation: KishaMulhallBackground 30s ease infinite;
 }
-
 @-webkit-keyframes KishaMulhallBackground {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
@@ -114,7 +113,6 @@ h2:hover{
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-
 }
 .bio{
     width: 500px;
@@ -124,6 +122,12 @@ h2:hover{
 }
 .bio:hover{
     border: 1px solid black;
+}
+.bio p:hover{
+    text-decoration-line: none;
+}
+.bio p{
+    margin: 10px;
 }
 .logobio{
     width: 500px;
@@ -146,8 +150,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    
+    font-family: 'Open Sans', sans-serif;  
 }
 footer a{
     margin: 8px;
