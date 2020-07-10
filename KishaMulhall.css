@@ -1,6 +1,6 @@
 body{
     margin: 0em;
-    background: linear-gradient(270deg, #ffcbf2, #f3c4fb, #ecbcfd, #e5b3fe, #e2afff, #deaaff, #d8bbff, #d0d1ff, #c8e7ff, #c0fdff);
+    background: linear-gradient(270deg, #ffcbf2, #f3c4fb, #ecbcfd, #e5b3fe, #e2afff, #deaaff, #d8bbff, #ead0ff, #eed9fa, #fbf3ff);
     background-size: 2000% 2000%;
 
     -webkit-animation: KishaMulhallBackground 30s ease infinite;
@@ -56,7 +56,7 @@ body{
 }
 .titulo{
     font-family: 'Open Sans', sans-serif;
-    font-size: 80px;
+    font-size: 100px;
 }
 .tarjetas{
     display: flex;
@@ -66,7 +66,6 @@ body{
 .tarjeta1{
     height: 500px;
     width: 300px;
-    background-color: #d8bbff;
     font-family: 'Open Sans', sans-serif;
 }
 .jail{
@@ -76,7 +75,6 @@ body{
 .tarjeta2{
     height: 500px;
     width: 300px;
-    background-color: #d8bbff;
     font-family: 'Open Sans', sans-serif;
 }
 .nathy{
@@ -86,7 +84,6 @@ body{
 .tarjeta3{
     height: 500px;
     width: 300px;
-    background-color: #d8bbff;
     font-family: 'Open Sans', sans-serif;
 }
 .monster{
@@ -116,21 +113,30 @@ h2:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 
 }
 .bio{
-    width: 300px;
+    width: 400px;
     height: 600px;
-    background-color: #d8bbff;
-    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     text-align: justify;
-
 }
 .bio:hover{
     border: 1px solid black;
 }
 .logobio{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
+}
+form{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form h2{
+    font-size: 30px;
 }
