@@ -22,7 +22,7 @@ body{
     background-color: #d8bbff;
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
 }
 .logo{
     height: 100px;
@@ -58,7 +58,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 80px;
 }
-section{
+.tarjetas{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -110,4 +110,27 @@ h2:hover{
 }
 .tarjeta3:hover{
     border: 1px solid black;
+}
+.bionew{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.bio{
+    width: 300px;
+    height: 600px;
+    background-color: #d8bbff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+
+}
+.bio:hover{
+    border: 1px solid black;
+}
+.logobio{
+    width: 300px;
+    height: 300px;
 }
