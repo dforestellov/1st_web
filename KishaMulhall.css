@@ -140,3 +140,15 @@ form{
 form h2{
     font-size: 30px;
 }
+footer{
+    height: 50px;
+    background-color: #d8bbff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+footer a{
+    margin: 8px;
+}
